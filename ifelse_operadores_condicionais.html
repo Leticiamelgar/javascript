@@ -5,30 +5,36 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Javascript</title>
-
     <script>
-        document.write("<br />");
-        document.write("Operadores de comparação <br />");
-        document.write("<br />");
-        document.write("Igual (==) - Verifica se os valores comparados são iguais <br />");
-        document.write("Idêntico (===) - Verifica se os valores comparados são iguais e do mesmo tipo <br />");
-        document.write("Diferente (!=) - Verifica se os valores comparados são diferentes <br />");
-        document.write("Não identico (!==) - Verifica se os valores comparados são diferentes e de tipos diferentes  <br />");
-        document.write("Menor (<) - Verifica se o valor da esquerda é menor que o valor da direita <br />");
-        document.write("Maior (>) - Verifica se o valor da esquerda é maior que o valor da direita <br />");
-        document.write("Menor igual (<=) - Verifica se o valor da esquerda é menor ou igual ao valor da direita <br />");
-        document.write("Maior igual (>=) - Verifica se o valor da esquerda é maior ou igual ao valor da direita <br />");
 
-        if(2==7) {
+        var nota = prompt('Digite a nota do aluno')
+        var media = 7
+        if (nota >= media) {
             document.write("<br />");
-            document.write('Entrou dentro do bloco If (verdadeiro) <br />')
+            document.write('Aprovado <br />')
         } else {
             document.write("<br />");
-            document.write('Entrou dentro do bloco If (false) <br />')
+            document.write('Reprovado <br />')
         }
     </script>
+
 </head>
 
-<body></body>
+<body>
+
+    <ul>
+        <li>Operadores de comparação</li>
+        <li>Igual (==) - Verifica se os valores comparados são iguais</li>
+        <li>Idêntico (===) - Verifica se os valores comparados são iguais e do mesmo tipo</li>
+        <li>Não identico (!==) - Verifica se os valores comparados são diferentes e de tipos diferentes</li>
+        <li>Diferente (!=) - Verifica se os valores comparados são diferentes</li>
+        <li>Menor (<) - Verifica se o valor da esquerda é menor que o valor da direita </li>
+        <li>Maior (>) - Verifica se o valor da esquerda é maior que o valor da direit</li>
+        <li>Menor igual (<=) - Verifica se o valor da esquerda é menor ou igual ao valor da direita</li>
+        <li>Maior igual (>=) - Verifica se o valor da esquerda é maior ou igual ao valor da direita</li>
+
+
+    </ul>
+</body>
 
 </html>
