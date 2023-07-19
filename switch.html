@@ -6,9 +6,9 @@
     <title>Javascript</title>
 
     <script>
-        var parametro = 2
+        var parametro = prompt('Digite um número: ')
 
-        switch (parametro) {
+        switch (parseInt(parametro)) {
             case 1:
                 document.write('Parametro 1')
                 break
@@ -18,6 +18,9 @@
             default:
                 document.write('Default')
         }
+
+        //O switch leva em conta o tipo do parâmetro informado
+        
     </script>
 </head>
 <body>
