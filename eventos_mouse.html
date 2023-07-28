@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+
+    <script>
+        function acao (){
+            alert('Evento disparado')
+        }
+    </script>
+
+    <body>
+        <!--Dispara uma mensagem no alerta ou chama uma função, quando o elemento do html é clicado-->
+        <div onclick="acao()" style="background: #ccc; height: 150px; width: 150px;"> <p>Dispara o alerta com um clique</p></div>
+
+        <hr>
+
+        <div ondblclick="acao()" style="background: #ccc; height: 150px; width: 150px;"> <p> Dispara o alerta com dois cliques</p></div>
+
+        <hr>
+
+        <div onmouseup = "acao()" style="background: #ccc; height: 150px; width: 150px;"> <p> Dispara o alerta quando o elemento deixa de ser pressionado</p></div>
+
+        <hr>
+
+        <div onmouseover = "acao()" style="background: #ccc; height: 150px; width: 150px;"> <p> Quando o mouse passae por cima do elemento, a ação será executada automaticamente</p></div>
+
+        <hr>
+
+        <div onmouseout = "acao()" style="background: #ccc; height: 150px; width: 150px;"> <p> Quando o mouse sair da área ocupada pelo elemento html</p></div>
+
+    </body>
+</head>
+<body>
+    
+</body>
+</html>
