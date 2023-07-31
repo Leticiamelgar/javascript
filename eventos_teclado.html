@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+
+    <script>
+        function acao1 (){
+
+            alert('Evento disparado')
+        }
+    </script>
+</head>
+<body>
+    <input onkeydown="acao1()" type="" />
+    <p>Dispara o alerta antes do caractere ser exibido</p>
+
+    <hr>
+
+    <input onkeyup="acao1()" type="" />
+    <p>Dispara o evento somente após a exibição do carctere</p>
+
+    <hr>
+
+    <input onkeypress="acao1()" type="" />
+    <p>Dispara o evento somente se a tecla selecionada for um caractere</p>
+
+    
+</body>
+</html>
